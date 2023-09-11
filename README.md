@@ -33,45 +33,44 @@ To get started with this project, follow these steps:
 
 2. Install the project dependencies
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. Configure your AWS credentials
 
-```bash
-serverless config credentials --provider aws --key YOUR_AWS_ACCESS_KEY --secret YOUR_AWS_SECRET_KEY
-```
+   ```bash
+   serverless config credentials --provider aws --key YOUR_AWS_ACCESS_KEY --secret YOUR_AWS_SECRET_KEY
+   ```
 
-Note:
-if you don't have serverless installed then first install it
+   Note:
+   if you don't have serverless installed then first install it:
 
-```bash
-npm install -g serverless
-```
+   ```bash
+   npm install -g serverless
+   ```
 
 4. Deploy the application to AWS Lambda
 
-```bash
-serverless deploy
-```
+   ```bash
+   serverless deploy
+   ```
 
-Note:
-if you don't have serverless installed then first install it
+   Note:
+   if you don't have serverless installed then first install it
 
-```bash
-npm install -g serverless
-```
+   ```bash
+   npm install -g serverless
+   ```
 
 5. Access your deployed API endpoints.
 
-Usage
-Use the provided API endpoints to interact with your serverless application.
-Customize the application logic by modifying the NestJS controllers and services.
-Configure and manage your PostgreSQL database using the Serverless PostgreSQL Plugin.
-Monitor and troubleshoot your Lambda functions using AWS CloudWatch.
-Documentation
-For detailed documentation and usage examples, please refer to the Wiki.
+   Use the provided API endpoints to interact with your serverless application.
+   Customize the application logic by modifying the NestJS controllers and services.
+   Configure and manage your PostgreSQL database using the Serverless PostgreSQL Plugin.
+   Monitor and troubleshoot your Lambda functions using AWS CloudWatch.
+   Documentation
+   For detailed documentation and usage examples, please refer to the Wiki.
 
 6. Acknowledgments
    [NestJS](https://nestjs.com/) - A progressive Node.js framework.
